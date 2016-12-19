@@ -4,11 +4,14 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="assets/style/reset.css">
     	<link rel="stylesheet" type="text/css" href="assets/style/style.css">
-        <title>RANK & FILE – ARTICLES</title>
+        <title>RANK & FILE</title>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     
     <body>
+        
         <div class="wrapper">
+            
             <div class="nav">
                 <div class="nav-container">
                     <a href="petitions.html">petitions</a>
@@ -20,17 +23,41 @@
                     <a href="strikes.html">strikes</a>
                 </div>
                 <div class="nav-container">
-                    <a href="leaflets.html">leaflets</a>
+                    <a href="articles.html">articles</a>
                 </div>
                 <div class="nav-container">
-                    <a href="articles.html">articles</a>
+                    <a href="leaflets.html">leaflets</a>
                 </div>
             </div>
             
+             
+            <div class="strike-box">
+                
+                <!--<div id="title"> SAY NO TO HOMOPHOBIC HOTELS! </div><div id="info">Sep 18 @ 2p – Pershing Square, Los Angeles CA </div>-->
+
+                <div id="title" onmouseover="myOverFunction()">
+                  <span id="demo"></span></p>
+                </div>
+
+                    <script>
+                    var text = ['say no to homophobic hotels!', 'immigrants march, rally & assembly', 'Changing lives, changing l.a.', 'cafeteria workers united!'];
+                    var randomText = text[Math.floor(text.length * Math.random())];
+                    $('#title').html(randomText)
+                    </script>
+                    
+                   <script>
+                    function myOverFunction() {
+                        document.getElementById("title").innerHTML = "<p class='info'><a href='https://www.facebook.com/events/150235435454279/'>Sep 18 @ 2p – Pershing Square, Los Angeles CA</a></p>";
+                    }
+                    // function myLeaveFunction() {
+                    //     document.getElementById("demo").innerHTML ="say no to homophobic hotels!";
+                    // }
+                </script>
             
-            
+            </div>
             
             
         </div>
+        
     </body>
 </html>

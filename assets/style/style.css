@@ -128,9 +128,22 @@ img {
     display: block;
     margin: auto auto;
     padding-top: 6px;
-    padding-bottom: 24px;
+    padding-bottom: 9px;
     width: 89%;
     vertical-align: middle;
+}
+
+.caption {
+    text-align: center;
+    display: block;
+    margin: auto auto;
+    font-family: platform-regular;
+    letter-spacing: 0.03rem;
+    font-size: 18px;
+    line-height: 1.15em;
+    width: 75%;
+    vertical-align: middle;
+    padding-bottom: 30px;
 }
 .col-table {
     border-left: 1px solid black;
@@ -183,7 +196,7 @@ th {
 .inner-nav {
     position: fixed;
     top: 13px;
-    right: 6%;
+    right: 11%;
 }
 
 .close {
@@ -274,7 +287,7 @@ h2 {
 
 .outer-table {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -303,7 +316,7 @@ a {
 }
 
 .body {
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     font-size: 40px;

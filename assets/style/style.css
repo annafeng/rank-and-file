@@ -320,7 +320,7 @@ a {
     height: auto;
     margin: 0 auto;
     font-size: 40px;
-    font-family: portrait-bold;
+    font-family: portrait;
     text-transform: none;
     line-height: 1.1em;
     padding: 10px;
@@ -370,7 +370,7 @@ a {
     width: 70%;
     height: auto;
     font-size: 45px;
-    font-family: portrait-bold;
+    font-family: portrait;
     text-transform: none;
     line-height: 1em;
     letter-spacing: -0.02rem;
@@ -403,7 +403,7 @@ a {
     height: auto;
     margin: 0 auto;
     font-size: 50px;
-    font-family: portrait-bold;
+    font-family: portrait;
     text-transform: none;
     line-height: 1.1em;
     padding: 10px;
@@ -436,7 +436,7 @@ a {
     height: auto;
     margin: 0 auto;
     font-size: 50px;
-    font-family: portrait-bold;
+    font-family: portrait;
     text-transform: none;
     line-height: 1.1em;
     padding: 10px;
@@ -511,7 +511,7 @@ iframe {
 /*    height: auto;*/
 /*    margin: 0 auto;*/
 /*    font-size: 40px;*/
-/*    font-family: portrait-bold;*/
+/*    font-family: portrait;*/
 /*    text-transform: none;*/
 /*    line-height: 1.1em;*/
 /*    padding: 10px;*/
@@ -546,7 +546,7 @@ iframe {
     position: absolute;
     display: inline-block;
     vertical-align: top;
-    font-family: portrait-bold;
+    font-family: portrait;
     text-align: left;
     text-transform: capitalize;
     padding: 15px;
@@ -572,7 +572,7 @@ iframe {
 
 .petitions-body-text {
     margin-top: 20px;
-    font-family: portrait-bold;
+    font-family: portrait;
     font-size: 24px;
     width: 40%;
     text-align: left;
@@ -640,8 +640,8 @@ input[type="text"], select {
 
 
 @font-face {
-  font-family: 'portrait-bold';
-  src: url('PortraitTextWeb-Bold.otf') format('otf');
+  font-family: 'portrait';
+  src: url('PortraitWeb-Bold.otf') format('otf');
 }
 
 @font-face {

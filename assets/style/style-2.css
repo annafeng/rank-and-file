@@ -1,0 +1,178 @@
+html, body {
+    background-color: white;
+}
+
+.wrapper {
+    max-width: 100%;
+}
+
+.nav {
+	font-family: platform-bold; 
+	text-transform: uppercase;
+	font-size: 34px;
+	letter-spacing: 0.02rem;
+    width: 100%;
+    position: fixed;
+    left: 2vw;
+    bottom: 2vh;
+	height: auto;
+	border: none;
+	float: left;
+	z-index: 599;
+}
+
+.nav a {
+	font-weight: normal;
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+.nav-container {
+    width: 20%;
+    height: auto;
+    text-align: left;
+	line-height: 1em;
+	margin-right: 0;
+	float: left;
+}
+
+/*.nav-container-nm {*/
+/*    width: 20%;*/
+/*    height: auto;*/
+/*	line-height: 1.1em;*/
+/*	margin-right: 0;*/
+/*	text-align: center;*/
+/*	float: left;*/
+/*}*/
+
+.strike-box {
+	width: 95%;
+	height: auto;
+	/*position: relative;*/
+	background-color: blue;
+	margin: 0 auto;
+}
+
+#title {
+	font-family: platform-bold;
+	text-align: center;
+	font-size: 200px;
+	line-height: .9em;
+	text-transform: uppercase;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -55%);
+	position: absolute;
+}
+
+
+.outer-table {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.col-table {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 30px 0;
+    font-size: 52px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    min-height: 1200px;
+}
+
+table, td, th {
+	padding: 5px;
+	border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+    font-family: platform-regular;
+    font-size: 36px;
+    line-height: 1.2em;
+    letter-spacing: 0.01rem;
+}
+
+th {
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.past {
+	text-decoration: line-through;
+	text-decoration-color: red;
+	-webkit-text-decoration-color: red;
+}
+
+
+.inner-nav {
+    position: fixed;
+    top: 20px;
+    right: 7%;
+}
+
+.gohome {
+    width: 3.5vw;
+    height: 3.5vw;
+    display: block;
+    position: relative;
+}
+
+
+.toc-column {
+    font-size: 22px;
+    line-height: 28px;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 25px;
+    padding: 2.5vw;
+}
+
+.toc-entry {
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-family: platform-bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-family: portrait-medium;
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.side-by-side {
+	height: 100%;
+	position: fixed;
+	overflow-y: auto;
+}
+
+.one-half { 
+	width: 50%;
+}
+
+#left {
+	left: 0;
+	/*background-color: gray;*/
+	/*background: linear-gradient(gray, white);*/
+	color: black;
+	padding: 50px 25px 37px;
+}
+
+#right {
+	right: 0;
+	/*background-color: gray;*/
+	/*background: linear-gradient(gray, black);*/
+	color: black;
+	padding: 50px 25px 37px;
+}

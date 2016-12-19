@@ -628,30 +628,28 @@ input[type="text"], select {
 }
     
 
-/*input[type=text], select {*/
-/*    width: 100%;*/
-/*    padding: 12px 20px;*/
-/*    margin: 8px 0;*/
-/*    display: inline-block;*/
-/*    border: 1px solid #ccc;*/
-/*    border-radius: 4px;*/
-/*    font-family: platform-regular;*/
-/*    box-sizing: border-box;*/
-/*}*/
+@font-face {
+  font-family: 'platform-bold';
+  src: url('Platform-Bold-Web.woff') format('woff');
+}
 
-/*input[type=submit] {*/
-/*    width: 100%;*/
-/*    background-color: white;*/
-/*    color: white;*/
-/*    padding: 14px 20px;*/
-/*    margin: 8px 0;*/
-/*    border: none;*/
-/*    font-family: platform-regular;*/
-/*    border-radius: 4px;*/
-/*    cursor: pointer;*/
-/*}*/
+@font-face {
+  font-family: 'platform-regular';
+  src: url('Platform-Regular-Web.woff') format('woff');
+}
 
-/*input[type=submit]:hover {*/
-/*    background-color: white;*/
-/*    font-family: platform-regular;*/
-/*}*/
+
+@font-face {
+  font-family: 'portrait-bold';
+  src: url('PortraitTextWeb-Bold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'portrait-medium';
+  src: url('PortraitTextWeb-Medium.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'portrait-regular';
+  src: url('PortraitTextWeb-Regular.otf') format('otf');
+}

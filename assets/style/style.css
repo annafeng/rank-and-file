@@ -3,29 +3,29 @@ html, body {
 }
 
 @font-face {
-  font-family: platform-bold;
-  src: url(Platform-Bold-Web.woff);
+  font-family: plt-bold;
+  src: url(plt-Bold-Web.woff);
 }
 
 @font-face {
-  font-family: portrait-bold;
-  src: url(Portrait-Bold.otf);
+  font-family: prt-bold;
+  src: url(prt-Bold.otf);
 }
 
 @font-face {
-  font-family: platform-regular;
-  src: url(Platform-Regular-Web.woff);
+  font-family: plt-regular;
+  src: url(plt-Regular-Web.woff);
 }
 
 
 @font-face {
-  font-family: portrait-medium;
-  src: url(PortraitTextWeb-Medium.otf);
+  font-family: prt-medium;
+  src: url(prtTextWeb-Medium.otf);
 }
 
 @font-face {
-  font-family: portrait-regular;
-  src: url(PortraitTextWeb-Regular.otf);
+  font-family: prt-regular;
+  src: url(prtTextWeb-Regular.otf);
 }
 
 .wrapper {
@@ -33,7 +33,7 @@ html, body {
 }
 
 .nav {
-	font-family: platform-bold; 
+	font-family: plt-bold; 
 	text-transform: uppercase;
 	font-size: 34px;
 	letter-spacing: 0.02rem;
@@ -75,7 +75,7 @@ html, body {
 }
 
 #title {
-	font-family: platform-bold;
+	font-family: plt-bold;
 	text-align: center;
 	font-size: 240px;
 	line-height: .9em;
@@ -89,7 +89,7 @@ html, body {
 }
 
 /*#title:hover {*/
-/*	font-family: portrait-bold;*/
+/*	font-family: prt-bold;*/
 /*	text-align: center;*/
 /*	font-size: 240px;*/
 /*	line-height: .9em;*/
@@ -102,7 +102,7 @@ html, body {
 /*}*/
 
 .info {
-    font-family: portrait-bold;
+    font-family: prt-bold;
 	text-align: center;
 	font-size: 180px;
 	letter-spacing: -0.05rem;
@@ -122,7 +122,7 @@ html, body {
 }
 
 /*#info:hover {*/
-/*    font-family: portrait-bold;*/
+/*    font-family: prt-bold;*/
 /*	text-align: center;*/
 /*	font-size: 200px;*/
 /*	line-height: .9em;*/
@@ -154,7 +154,7 @@ img {
     text-align: center;
     display: block;
     margin: auto auto;
-    font-family: platform-regular;
+    font-family: plt-regular;
     letter-spacing: 0.03rem;
     font-size: 18px;
     line-height: 1.15em;
@@ -192,7 +192,7 @@ table {
     width: 95%;
     margin: 0 auto;
     margin-top: 10px;
-    font-family: platform-regular;
+    font-family: plt-regular;
     font-size: 36px;
     line-height: 1.2em;
     letter-spacing: 0.01rem;
@@ -201,7 +201,7 @@ table {
 th {
     padding: 0;
     text-transform: uppercase;
-    font-family: platform-bold;
+    font-family: plt-bold;
 }
 
 .past {
@@ -273,7 +273,7 @@ th {
 }
 
 h1 {
-    font-family: platform-bold;
+    font-family: plt-bold;
     font-size: 60px;
     line-height: 1em;
     text-transform: uppercase;
@@ -286,7 +286,7 @@ a:hover {
 }
 
 h2 {
-    font-family: portrait-medium;
+    font-family: prt-medium;
     font-size: 60px;
     line-height: 1em;
     letter-spacing: -0.04rem;
@@ -324,7 +324,7 @@ a {
     width: 100%;
     height: auto;
     font-size: 180px;
-    font-family: platform-bold;
+    font-family: plt-bold;
     text-transform: uppercase;
     line-height: .85em;
     padding: 1.9vw;
@@ -338,7 +338,7 @@ a {
     height: auto;
     margin: 0 auto;
     font-size: 40px;
-    font-family: portrait-bold;
+    font-family: prt-bold;
     text-transform: none;
     line-height: 1.1em;
     padding: 10px;
@@ -362,7 +362,7 @@ a {
     width: 70%;
     height: auto;
     font-size: 45px;
-    font-family: portrait-bold;
+    font-family: prt-bold;
     text-transform: none;
     line-height: 1em;
     letter-spacing: -0.02rem;
@@ -380,7 +380,7 @@ a {
     width: 100%;
     height: auto;
     font-size: 148px;
-    font-family: platform-bold;
+    font-family: plt-bold;
     text-transform: uppercase;
     line-height: .85em;
     padding: 10px;
@@ -395,7 +395,7 @@ a {
     height: auto;
     margin: 0 auto;
     font-size: 50px;
-    font-family: portrait-bold;
+    font-family: prt-bold;
     text-transform: none;
     line-height: 1.1em;
     padding: 10px;
@@ -413,7 +413,7 @@ a {
     width: 100%;
     height: auto;
     font-size: 148px;
-    font-family: platform-bold;
+    font-family: plt-bold;
     text-transform: uppercase;
     line-height: .85em;
     padding: 10px;
@@ -428,7 +428,7 @@ a {
     height: auto;
     margin: 0 auto;
     font-size: 50px;
-    font-family: portrait-bold;
+    font-family: prt-bold;
     text-transform: none;
     line-height: 1.1em;
     padding: 10px;
@@ -463,12 +463,12 @@ iframe {
 
 
 .platform {
-    font-family: platform-regular;
+    font-family: plt-regular;
     text-transform: uppercase;
 }
 
 .letter {
-    font-family: platform-regular;
+    font-family: plt-regular;
     text-transform: lowercase;
     font-size: 37px;
 }
@@ -507,7 +507,7 @@ iframe {
     position: absolute;
     display: inline-block;
     vertical-align: top;
-    font-family: portrait-bold;
+    font-family: prt-bold;
     text-align: left;
     text-transform: capitalize;
     padding: 15px;
@@ -522,7 +522,7 @@ iframe {
 }
 
 .pet-entry-l-head {
-    font-family: platform-bold;
+    font-family: plt-bold;
     font-size: 30px;
     padding-bottom: 10px;
 }
@@ -533,7 +533,7 @@ iframe {
 
 .petitions-body-text {
     margin-top: 20px;
-    font-family: portrait-bold;
+    font-family: prt-bold;
     font-size: 24px;
     width: 40%;
     text-align: left;
@@ -543,13 +543,13 @@ iframe {
 
 .form {
     padding-top: 10px;
-font-family: platform-bold;
+font-family: plt-bold;
 font-size: 30px;
     }
     
 
 input[type="text"], select {
-	font-family: platform-regular;
+	font-family: plt-regular;
 	text-transform: capitalize;
 	color: black;
 	font-size: 30px;
@@ -570,7 +570,7 @@ input[type="text"], select {
 }
 
 #submit {
-	font-family: platform-regular;
+	font-family: plt-regular;
 	text-transform: uppercase;
 	color: black;
 	display: block;
